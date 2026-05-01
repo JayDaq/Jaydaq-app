@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <View style={styles.screen}>
       <Image 
-        source={{ uri: 'https://drive.google.com/uc?export=download&id=1LpXzwgjHGbakToojP2q9DZ66Oowrp7xu' }} 
+        source={{ uri: 'https://drive.google.com/uc?id=1rz8cRLrvIaw6rX2NbMcMQT9qJhdhC8uo' }} 
         style={styles.photo} 
       />
       <Text style={styles.name}>{myName}</Text>
@@ -54,6 +54,18 @@ const styles = StyleSheet.create({
   bio: { 
     fontSize: 14, 
     color: '#888' 
+  },
+  bioBox: {
+    marginTop: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    backgroundColor: '#f2f2f2',
+    borderRadius: 12,
+    alignItems: 'center'
+  },
+  bioText: {
+    fontSize: 14,
+    color: '#555'
   },
   greeting: {
     marginTop: 20,
