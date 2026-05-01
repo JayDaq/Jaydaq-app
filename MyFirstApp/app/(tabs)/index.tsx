@@ -33,6 +33,7 @@ export default function Index() {
   );
 }
 
+// I change the stylesheet to make the portfolio screen look better. 05/01/2026
 const styles = StyleSheet.create({
   screen: { 
     flex: 1, 
